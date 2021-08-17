@@ -20,7 +20,7 @@ jobs:
     name: test
     strategy:
       matrix:
-        example: ["x86_64", "rpi4", "ginet-gl-mt300n-v2", "nexx-wt3020", "rpi2", "wrt1043nd"]
+        example: ["x86_64", "nanopi_r4s"]
         option: ["--skip-sudo", "--dockerless"]
     steps:
       - name: Checkout
